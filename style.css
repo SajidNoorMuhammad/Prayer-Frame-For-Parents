@@ -1,0 +1,62 @@
+@font-face {
+    font-family: myfont;
+    src: url(JameelNooriNastaleeqKasheeda.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('frame.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    filter: none;
+    background-size: contain;
+}
+
+p {
+    color: blue;
+    text-align: center;
+    margin-top: 10%;
+    text-transform: capitalize;
+    text-shadow: 10px 10px 15px;
+}
+
+b {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+div {
+    font-size: 35px;
+    color: red;
+    text-align: center;
+    margin-top: 8%;
+    text-transform: capitalize;
+    font-family: myfont;
+    text-shadow: 10px 10px 15px;
+
+}
+
+.img2 {
+    text-align: center;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        height: 100%;
+    }
+}
